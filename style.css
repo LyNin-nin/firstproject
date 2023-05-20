@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    background: linear-gradient(#5997dd, transparent), url('images/img-2.jpg');
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 6%;
+}
+.logo{
+    color: #fff;
+    cursor: pointer;
+}
+.logo h2{
+    font-weight: 600;
+}
+.logo h3{
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav li a:hover{
+    color: rgb(242, 227, 189);
+}
+.btn{
+    background: #e6389a;
+    padding: 8px 20px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background: #ee69b4;
+    color: #fff;
+}
+.header h1{
+    padding: 0 20%;
+    margin-top: 13%;
+    margin-left: 150px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 93px;
+    min-width: 200px;
+}
+
+/*---------Middle page--------*/
+.mid_page{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(400px,1fr));
+    grid-gap: 30px;
+    padding: 6% 6%;
+}
+.mid_page div img{
+    width: 100%;
+    max-width: 500px;
+    cursor: pointer;
+}
+.sub_title{
+    line-height: 60px;
+}
+p{
+    width: 80%;
+}
+.sub_title2{
+    margin-bottom: 10px;
+}
+.line{
+    border-bottom: 3.5px solid #e6389a;
+    width: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.footer{
+    background-color: #333;
+    color: #fff;
+    display: block;
+}
+.footer p{
+    padding: 3% 50px;
+    text-align: center;
+    margin-left: 150px;
+}
